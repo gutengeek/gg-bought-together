@@ -1,0 +1,483 @@
+# Copyright (C) 2020 gg-woo-bt
+# This file is distributed under the same license as the gg-woo-bt package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gg-woo-bt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/Admin/Admin.php:115, inc/Admin/Admin.php:116
+msgid "Bought Together"
+msgstr ""
+
+#: inc/Core/ajax-functions.php:28
+msgid "No products found for \"%s\". Try again!"
+msgstr ""
+
+#: inc/Core/functions.php:110
+msgid "Set a new price using a number (ex: \"99\") or percentage (ex: \"90%\" of original price)"
+msgstr ""
+
+#: inc/Core/functions.php:115
+msgid "Default quantity"
+msgstr ""
+
+#: inc/Core/functions.php:125, inc/Libraries/Form/Helper.php:187, inc/Libraries/Form/Field/File.php:301
+msgid "Remove"
+msgstr ""
+
+#: inc/Core/Metabox.php:67
+msgid "Options"
+msgstr ""
+
+#: inc/Frontend/Enqueue.php:105
+msgid "Add to cart"
+msgstr ""
+
+#: inc/Frontend/Enqueue.php:106
+msgid "Please choose variation options for %s."
+msgstr ""
+
+#: inc/Frontend/Enqueue.php:107
+msgid "Additional price:"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Cat_Metabox.php:32, inc/Admin/Metabox/Product_Cat_Metabox.php:51
+msgid "GG Woo Bought Together"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Cat_Metabox.php:35, inc/Admin/Metabox/Product_Cat_Metabox.php:54, inc/Admin/Metabox/Product_Metabox.php:105
+msgid "Discount"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Cat_Metabox.php:37, inc/Admin/Metabox/Product_Cat_Metabox.php:60
+msgid "Discount for each product in this category when bought together with another."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:32
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:54
+msgid "Associated products"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:57
+msgid "Loading..."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:58
+msgid "Type keyword..."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:95
+msgid "Add separately"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:100
+msgid "If enabled, the associated products will be added as separate items and stay unaffected from the main product, their prices will change back to the original."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:111
+msgid "Discount for the main product when buying at least one product in this list."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:115
+msgid "Checked all"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:119
+msgid "Checked all by default."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:123
+msgid "Custom quantity"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:127
+msgid "Allow the customer can change the quantity of each product."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:131
+msgid "Sync quantity"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:135
+msgid "Sync the quantity of the main product with associated products."
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:139
+msgid "Limit each item"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:143
+msgid "Use default quantity as min"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:156
+msgid "Before text"
+msgstr ""
+
+#: inc/Admin/Metabox/Product_Metabox.php:164
+msgid "After text"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:35
+msgid "Default Products"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:38, inc/Admin/Setting/General.php:38, inc/Libraries/Form/Field/Page.php:71, inc/Libraries/Form/Field/Taxonomy.php:72, inc/Libraries/Form/Field/views/input-radio.php:12, inc/Libraries/Form/Field/views/input-select.php:16
+msgid "None"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:39
+msgid "Related"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:40
+msgid "Upsells"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:41
+msgid "Related & Upsells"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:42
+msgid "Set below rules"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:45
+msgid "Automatically add frequently bought together products when not adding specified products for each main product."
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:48
+msgid "Bad keywords"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:49
+msgid "A comma-separated list of bad keywords will be removed. List items will be query by remain keywords in product name."
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:54
+msgid "Allowed categories"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:55
+msgid "Select allowed categories."
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:63
+msgid "Number of default products"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:66
+msgid "Maximum number of products to be displayed."
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:70
+msgid "Sort by"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:73
+msgid "ID"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:74
+msgid "Product Name"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:77
+msgid "Sort order by one of options."
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:81
+msgid "Sort order"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:84
+msgid "Descending"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:85
+msgid "Ascending"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:88
+msgid "Sort result sets in either Ascending or Descending order"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:35
+msgid "Position"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:39
+msgid "Before add to cart button (woocommerce_before_add_to_cart_form)"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:40
+msgid "After add to cart button (woocommerce_after_add_to_cart_form)"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:41
+msgid "After product title (woocommerce_single_product_summary)"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:42
+msgid "After price (woocommerce_single_product_summary)"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:43
+msgid "After the excerpt (woocommerce_single_product_summary)"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:44
+msgid "After the meta (woocommerce_single_product_summary)"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:47, inc/Admin/Setting/General.php:87
+msgid "Choose the position to show the frequently bought products."
+msgstr ""
+
+#: inc/Admin/Setting/General.php:50
+msgid "Show main product"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:51
+msgid "Main product will be showed in the first of the list. "
+msgstr ""
+
+#: inc/Admin/Setting/General.php:57
+msgid "Show thumbnail"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:58
+msgid "Show product thumnail in the list."
+msgstr ""
+
+#: inc/Admin/Setting/General.php:64
+msgid "Show price"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:65
+msgid "Show price in the list."
+msgstr ""
+
+#: inc/Admin/Setting/General.php:71
+msgid "Show variation select"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:72
+msgid "Show variation select when page loaded."
+msgstr ""
+
+#: inc/Admin/Setting/General.php:79
+msgid "View detail products"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:82
+msgid "No"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:83
+msgid "Open in the same tab"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:84
+msgid "Open in the new tab"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:90
+msgid "Re-calculate Main Price"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:91
+msgid "Re-calculate main product price when add items."
+msgstr ""
+
+#: inc/Admin/Setting/General.php:97, inc/Admin/Setting/General.php:98
+msgid "Main Price Selector"
+msgstr ""
+
+#: inc/Admin/Setting/General.php:104, inc/Admin/Setting/General.php:105
+msgid "Change quantity in Cart page."
+msgstr ""
+
+#: inc/Admin/Setting/Search.php:35
+msgid "Limit"
+msgstr ""
+
+#: inc/Admin/Setting/Search.php:38
+msgid "Maximum number of products to be displayed when searching."
+msgstr ""
+
+#: inc/Frontend/Controller/Cart.php:70
+msgid "Invalid product."
+msgstr ""
+
+#: inc/Frontend/Controller/Cart.php:76
+msgid "Un-purchasable. Please choose variation options for \"%s\"."
+msgstr ""
+
+#: inc/Frontend/Controller/Cart.php:82
+msgid "You can not add another \"%s\" to the cart. It is individually."
+msgstr ""
+
+#: inc/Frontend/Controller/Cart.php:89
+msgid "\"%1$s\" does not reach the minimum quantity (%2$s)."
+msgstr ""
+
+#: inc/Frontend/Controller/Cart.php:95
+msgid "\"%1$s\" passes the maximum quantity (%2$s)."
+msgstr ""
+
+#: inc/Frontend/Controller/Cart.php:316, inc/Frontend/Controller/Order.php:53, inc/Frontend/Controller/Order.php:82
+msgid "(bought together %s)"
+msgstr ""
+
+#: inc/Libraries/Form/Form.php:214
+msgid "The field ID or field type is required."
+msgstr ""
+
+#: inc/Libraries/Form/Form.php:322
+msgid "Enter username"
+msgstr ""
+
+#: inc/Libraries/Form/Form.php:337
+msgid "Cancel"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:170
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:171
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:172
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:173
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:174
+msgid "January, February, March, April, May, June, July, August, September, October, November, December"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:175
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:176
+msgid "Next"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:177
+msgid "Prev"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:178
+msgid "Today"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:179
+msgid "Done"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:180, inc/Libraries/Form/Helper.php:212
+msgid "Clear"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:184
+msgid "Use this file"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:185
+msgid "Use these files"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:186, inc/Libraries/Form/Field/File.php:282
+msgid "Remove Image"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:188, inc/Libraries/Form/Field/File.php:296
+msgid "File:"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:189, inc/Libraries/Form/Field/File.php:299
+msgid "Download"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:190, inc/Libraries/Form/Field/Taxonomy.php:367, inc/Libraries/Form/Field/views/input-multi-checkbox.php:31
+msgid "Select / Deselect All"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:213
+msgid "Default"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:214
+msgid "Select Color"
+msgstr ""
+
+#: inc/Libraries/Form/Helper.php:215
+msgid "Current Color"
+msgstr ""
+
+#: inc/Libraries/Form/Field/File.php:61
+msgid "Add or Upload File"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Map.php:92
+msgid "Address"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Map.php:102
+msgid "Latitude"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Map.php:111
+msgid "Longitude"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Map.php:119
+msgid "You need to register <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\" target=\"_blank\">Google API Key</a>, then put the key in plugin setting."
+msgstr ""
+
+#: inc/Libraries/Form/Field/Page.php:70, inc/Libraries/Form/Field/Taxonomy.php:71, inc/Libraries/Form/Field/views/input-radio.php:11, inc/Libraries/Form/Field/views/input-select.php:15
+msgid "All"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Page.php:218, inc/Libraries/Form/Field/Taxonomy.php:483
+msgid "No terms"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Page.php:235
+msgid "-- Select Page --"
+msgstr ""
+
+#: inc/Libraries/Form/Field/Uploader.php:161
+msgid "Allow upload file have size < %s MB and maximum number of files: %s"
+msgstr ""
+
+#: inc/Libraries/Form/Field/views/input-group.php:26
+msgid "Group"
+msgstr ""
+
+#: inc/Libraries/Form/Field/views/input-group.php:51, inc/Libraries/Form/Field/views/input-group.php:102
+msgid "Remove Group"
+msgstr ""
+
+#: inc/Libraries/Form/Field/views/input-group.php:140
+msgid "Add Row"
+msgstr ""

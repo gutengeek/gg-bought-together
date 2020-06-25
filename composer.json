@@ -1,0 +1,21 @@
+{
+	"name": "gg_woo_bt/gg-woo-bt",
+	"description": "Description",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "gutengeek",
+			"email": "info@gutengeek.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"GG_Woo_BT\\": "inc/"
+		}
+	}
+}
