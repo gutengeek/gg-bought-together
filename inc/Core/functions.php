@@ -330,8 +330,44 @@ function gg_woo_bt_query_rules( $product ) {
 				$string             = implode( ' OR post_title LIKE ', $query_parts );
 				$allowed_categories = gg_woo_bt_get_option( 'allowed_categories', [] );
 
-				$post_in = '';
+				$this_product_cats_list = [];
+				$this_product_cats      = get_the_terms( $product->get_id(), 'product_cat' );
+				if ( $this_product_cats ) {
+					$this_product_cats_list = wp_list_pluck( $this_product_cats, 'slug' );
+				}
+
+				$mapping = gg_woo_bt_get_mapping_setting();
+
+				$maybe = [];
+				if ( $this_product_cats_list ) {
+					foreach ( $this_product_cats_list as $this_product_cat_slug ) {
+						if ( array_key_exists( $this_product_cat_slug, $mapping ) ) {
+							if ( isset( $mapping[ $this_product_cat_slug ] ) && $mapping[ $this_product_cat_slug ] ) {
+								foreach ( $mapping[ $this_product_cat_slug ] as $value ) {
+									$maybe[] = $value;
+								}
+							}
+						}
+					}
+				}
+
+				$category_in = [];
 				if ( $allowed_categories ) {
+					if ( $maybe ) {
+						$category_in = array_intersect( $maybe, $allowed_categories );
+					} else {
+						$category_in = $allowed_categories;
+					}
+				} else {
+					if ( $maybe ) {
+						$category_in = $maybe;
+					} else {
+						$category_in = [];
+					}
+				}
+
+				$post_in = '';
+				if ( $category_in ) {
 					$args = [
 						'post_type'   => 'product',
 						'post_status' => 'publish',
@@ -340,14 +376,17 @@ function gg_woo_bt_query_rules( $product ) {
 							[
 								'taxonomy' => 'product_cat',
 								'field'    => 'slug',
-								'terms'    => $allowed_categories,
+								'terms'    => $category_in,
 							],
 						],
 					];
 
 					$allowed_products = get_posts( $args );
-					$allowed_ids      = wp_list_pluck( $allowed_products, 'ID' );
-					$post_in          = " AND ID IN ( '" . implode( "','", $allowed_ids ) . "' )";
+
+					if ( $allowed_products ) {
+						$allowed_ids = wp_list_pluck( $allowed_products, 'ID' );
+						$post_in     = " AND ID IN ( '" . implode( "','", $allowed_ids ) . "' )";
+					}
 				}
 
 				global $wpdb;
@@ -400,7 +439,7 @@ add_action( 'gg_woo_bt_after_save_settings', 'gg_woo_bt_save_mapping_data', 10, 
 function gg_woo_bt_save_mapping_data( $update_options, $old_options ) {
 	$mapping_category = isset( $_POST['mapping_category'] ) ? gg_woo_bt_clean( $_POST['mapping_category'] ) : [];
 	$mapping_to       = isset( $_POST['mapping_to'] ) ? gg_woo_bt_clean( $_POST['mapping_to'] ) : [];
-	$new_options          = [];
+	$new_options      = [];
 
 	if ( $mapping_category && $mapping_to ) {
 		$new_options['mapping_category'] = $mapping_category;
@@ -408,4 +447,19 @@ function gg_woo_bt_save_mapping_data( $update_options, $old_options ) {
 	}
 
 	update_option( 'gg_woo_bt_mapping', $new_options );
+}
+
+function gg_woo_bt_get_mapping_setting() {
+	$mapping_option   = get_option( 'gg_woo_bt_mapping', [] );
+	$mapping_category = isset( $mapping_option['mapping_category'] ) && $mapping_option['mapping_category'] ? $mapping_option['mapping_category'] : [];
+	$mapping_to       = isset( $mapping_option['mapping_to'] ) && $mapping_option['mapping_to'] ? $mapping_option['mapping_to'] : [];
+
+	$settings = [];
+	foreach ( $mapping_category as $mapping_category_key => $mapping_category_value ) {
+		if ( isset( $mapping_to[ $mapping_category_key ] ) && $mapping_to[ $mapping_category_key ] ) {
+			$settings[ $mapping_category_value ] = explode( '|', $mapping_to[ $mapping_category_key ] );
+		}
+	}
+
+	return $settings;
 }

@@ -121,11 +121,11 @@ msgstr ""
 msgid "Use default quantity as min"
 msgstr ""
 
-#: inc/Admin/Metabox/Product_Metabox.php:156
+#: inc/Admin/Metabox/Product_Metabox.php:156, inc/Admin/Setting/General.php:111
 msgid "Before text"
 msgstr ""
 
-#: inc/Admin/Metabox/Product_Metabox.php:164
+#: inc/Admin/Metabox/Product_Metabox.php:164, inc/Admin/Setting/General.php:116
 msgid "After text"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgid "Allowed categories"
 msgstr ""
 
 #: inc/Admin/Setting/Default_Products.php:55
-msgid "Select allowed categories."
+msgid "Select allowed categories. All categories will be allowed if this value is empty."
 msgstr ""
 
 #: inc/Admin/Setting/Default_Products.php:63
@@ -211,6 +211,30 @@ msgstr ""
 
 #: inc/Admin/Setting/Default_Products.php:88
 msgid "Sort result sets in either Ascending or Descending order"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:92
+msgid "Mapping"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:107
+msgid "Mapping categories"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:112
+msgid "Category"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:113
+msgid "Map to categories"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:169
+msgid "No conditions"
+msgstr ""
+
+#: inc/Admin/Setting/Default_Products.php:175
+msgid "Add New Mapping"
 msgstr ""
 
 #: inc/Admin/Setting/General.php:35

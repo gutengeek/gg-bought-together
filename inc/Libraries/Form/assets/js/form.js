@@ -613,6 +613,7 @@ window.OPAL = window.OPAL || {};
 
     opal.mapping = function() {
         select2_mapping_init();
+        condition_sortable_init();
         var condition_cache = '';
         $('#gg_woo_bt-add-new-condition').on('click', function (e) {
             e.preventDefault();

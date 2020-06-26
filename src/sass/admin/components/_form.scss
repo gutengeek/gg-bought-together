@@ -435,3 +435,37 @@ table.wp-list-table span.product-type.gg_woo_bt:before {
     float: none;
   }
 }
+
+.gg_woo_bt-table-filter {
+  width: 60%;
+  margin-bottom: 30px;
+
+  th:nth-child(1) {
+    width: 5%;
+  }
+
+  th:nth-child(2) {
+    width: 35%;
+  }
+
+  th:nth-child(3) {
+    width: 55%;
+  }
+
+  th:nth-child(4) {
+    width: 5%;
+  }
+
+  .select2-container {
+    width: 100% !important;
+  }
+
+  .gg_woo_bt-sort {
+    cursor: move;
+  }
+
+  .gg_woo_bt-del-condition {
+    cursor: pointer;
+    color: red;
+  }
+}

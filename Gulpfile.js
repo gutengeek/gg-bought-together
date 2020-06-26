@@ -153,8 +153,8 @@ gulp.task('watch', () => {
         proxy: 'localhost/wordpress/gg-woo-bought-together',
     })
 
-    gulp.watch('src/sass/admin/**/*.scss', gulp.series(['scss']))
-    gulp.watch('src/sass/admin/components/*.scss', gulp.series(['scss']))
+    gulp.watch('src/sass/admin/**/*.scss', gulp.series(['admin-scss']))
+    gulp.watch('src/sass/admin/components/*.scss', gulp.series(['admin-scss']))
     gulp.watch('src/sass/*.scss', gulp.series(['scss']))
     gulp.watch('src/js/admin/**/*.js', gulp.series(['babel']))
     gulp.watch('src/js/admin/*.js', gulp.series(['babel-admin']))

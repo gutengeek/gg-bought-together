@@ -1,4 +1,4 @@
-=== GG Bought Together ===
+=== GG Bought Together for WooCommerce ===
 Contributors: gutengeek, ndoublehwp
 Tags: Frequently Bought Together
 Requires at least: 5.2
@@ -8,13 +8,13 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-GG Woo Frequently Bought Together is a powerful & ease to create frequently bought products in single product page.
+GG Bought Together is a powerful & ease to create frequently bought products in single product page.
 
 == Description ==
 
 [Plugin Document](https://wpdocs.gitbook.io/gg-woo-bt/) | [Free Support](https://themelexus.ticksy.com/)  | [More Plugin](https://gutengeek.com/gutenberg-plugins/)
 
-**GG Woo Frequently Bought Together** is a powerful & ease to create frequently bought products in single product page.
+**GG Bought Together** is a powerful & ease to create frequently bought products in single product page.
 
 == Installation ==
 

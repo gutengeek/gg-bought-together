@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       GG Bought Together
+ * Plugin Name:       GG Bought Together for WooCommerce
  * Plugin URI:        https://gutengeek.com
  * Description:       GG Bought Together for WooCommerce allows increasing the average spent of your store by showing a box with the products purchased together more frequently.
  * Version:           1.0.2

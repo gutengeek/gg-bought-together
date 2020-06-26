@@ -23,7 +23,6 @@ $after_text  = $after_text ? $after_text : gg_woo_bt_get_option( 'after_text', '
 $count       = 1;
 
 $items = gg_woo_bt_get_products( $product_id );
-
 if ( ! $items || empty( $items ) ) {
 	return;
 }

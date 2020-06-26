@@ -52,7 +52,7 @@ class Default_Products extends Core\Metabox {
 			],
 			[
 				'name'        => esc_html__( 'Allowed categories', 'gg-woo-bt' ),
-				'description' => esc_html__( 'Select allowed categories.', 'gg-woo-bt' ),
+				'description' => esc_html__( 'Select allowed categories. All categories will be allowed if this value is empty.', 'gg-woo-bt' ),
 				'id'          => 'allowed_categories',
 				'type'        => 'taxonomy_select',
 				'taxonomy'    => 'product_cat',
@@ -99,14 +99,13 @@ class Default_Products extends Core\Metabox {
 	}
 
 	public function get_mapping_html() {
-		$options = get_option( 'gg_woo_bt_mapping', [] );
-		// var_dump($options);
+		$options          = get_option( 'gg_woo_bt_mapping', [] );
 		$mapping_category = isset( $options['mapping_category'] ) && $options['mapping_category'] ? $options['mapping_category'] : [];
 		$mapping_to       = isset( $options['mapping_to'] ) && $options['mapping_to'] ? $options['mapping_to'] : [];
 		ob_start();
 		?>
-        <h3>Mapping categories</h3>
-        <table class="table tree widefat fixed gg_woo_bt-table-filter" style="width: 100%;" id="gg_woo_bt-table-filter">
+        <h3><?php esc_html_e( 'Mapping categories', 'gg-woo-bt' ); ?></h3>
+        <table class="table tree widefat fixed gg_woo_bt-table-filter" id="gg_woo_bt-table-filter">
             <thead>
             <tr>
                 <th></th>
@@ -153,7 +152,7 @@ class Default_Products extends Core\Metabox {
                                     </option>
 								<?php endforeach; ?>
                             </select>
-                            <input type="hidden" class="mapping_to_input" name="mapping_to[]" value="">
+                            <input type="hidden" class="mapping_to_input" name="mapping_to[]" value="<?php echo esc_attr( $mapping_to[ $key ] ); ?>">
                         </td>
                         <td>
                             <i class="gg_woo_bt-del-condition dashicons dashicons-no-alt"></i>
@@ -164,8 +163,9 @@ class Default_Products extends Core\Metabox {
 			endif; ?>
             </tbody>
             <tfoot>
-            <tr class="gg_woo_bt-no-conditions" <?php echo ! $has_condition ? 'style="display: none;"' : ''; ?>>
-                <td colspan="5">
+
+            <tr class="gg_woo_bt-no-conditions" <?php echo $has_condition ? 'style="display: none;"' : ''; ?>>
+                <td colspan="4">
                     <p><?php esc_html_e( 'No conditions', 'gg-woo-bt' ); ?></p>
                 </td>
             </tr>
