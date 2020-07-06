@@ -2,36 +2,63 @@
 
 Welcome to the GG Woo Bought Together repository on GitHub. Here you can browse the source, look at open issues and keep track of development.
 
-If you are not a developer, please use the [GG Woo Bought Together plugin page](https://wordpress.org/plugins/gg-woo-bt/) on WordPress.org.
+If you are not a developer, please use the [GG Bought Together plugin page](https://wordpress.org/plugins/gg-woo-bt/) on WordPress.org.
 
 ## Documentation
-* [GG Woo Bought Together Documentation](https://wpdocs.gitbook.io/gg-woo-bt/)
-* [GG Woo Bought Together Support Forum](https://themelexus.ticksy.com/)
+* [GG Bought Together Documentation](https://wpdocs.gitbook.io/gg-bought-together-for-woocommerce/)
+* [GG Bought Together Support Forum](https://themelexus.ticksy.com/)
 
 ## Description
-Would you like to advertise your Shop store sales on merchant centers such as Google Shopping, Facebook, Pinterest, etc? And, you are so tired of uploading information of products step by step or
- preparing data files to upload on the shopping merchant ( Google, Facebook, Pinterest, …) manually and when some info needs to be edited also. Don't worry! Let No #1 WooCommerce Bought Together
-  Generator
-  – GG
-  Woo Bought Together helps you deal with them.
-The plugin aids you to make WooCommerce Bought Togethers for products to connect to famous shopping providers as Google, Facebook, Pinterest. After you activate the plugin, you can easily create a new
- WooCommerce product bt, selecting a provider shopping, filter items, and uploading it on those sites. The product bts can be automatically updated & uploaded according to a given schedule and Sync your product to various shopping engines. No matter the speed of generating bts, it is completely quick and rapid to save your priceless time. Even though your store contains 10k+ products, it still works smoothly. A piece of cake!
-Non-stop there, the plugin still covers numerous features inside that will make you surprised:
-- Create a bt from WooCommerce products with so many settings
-- Filter by query
-- Filter by Condition Bought Together
-- Schedule for regenerate bts.
-- Manage & Edit WooCommerce Product Bought Together easily
-- Easily Settings Google Bought Together on WooCommerce
-- Send Bought Together to Google Merchant by Google API.
-- Get Instant Report of Google Shopping Errors at WordPress Dashboard, No need to login Google Merchant
-- Conversion Tracking for Google Ads.
-- Dynamic Remarketing for Google Ads.
-- Support Yoast SEO title, meta description.
-- Customize Products Meta for Mapping Product
-- Customize Categories Meta for Mapping Product
+**GG Bought Together** is a powerful & easy to create frequently bought product on a single product page.
+This Frequently Bought Together for WooCommerce plays an important role in your WooCommerce shop to boost sales and increase profits from cross-selling marketing strategy drastically.
+When using WooCommerce Bought together, your shop can suggest related products automatic for assistant to additional purpose & usage.
+It's a smart way to introduce products to better customers' experience in your shop.
 
-Notice: This plugin requires at least WooCommerce version 3.6.
+## Powerful features of GG Frequently Bought Together for WooComerce:
+* Advanced search with SKU, title, phrase or sentence
+* Set discount pricing with percentage for bought together
+* Easily WooCommerce Bought Together Setting
+* Flexible Bought together Function supports
+* Disable/Enable Main Product in cart
+* Display product thumbnail image
+* Show price
+* Showcase variation for product
+* Detail product
+* Recalculate main price
+* Main Price selector
+* Change quantity in cart page
+* Set limit of product search showcase
+* Default products
+* Bad Keyword
+* Allow categories
+* Number of default products
+* Sort by
+* Sort order
+* Mapping category
+* Simple Installation
+
+## Detail outstanding features of GG Bought Together
+
+**Variable product supported**
+GG Bought Together supports varable products.
+
+**Advanced search with SKU, title, phrase or sentence**
+When adding new frequently bought together product, this plugin allows to search SKU, title,phrase or sentence.
+
+**Set discount pricing with percentage for bought together**
+Admin is able to set the discount ( percentage or amount) of frequently bought items. - smart way to push sale for your store.
+
+**Easily WooCommerce Bought Together Setting**
+By using Woocommerce Bought Together plugin, you can set general information as position, show main product, thumbnail, ...
+
+**Flexible position settings**
+Freely to show position for frequently bought together: before, after, ...
+
+**Show main product, thumbnail, price, variation product**
+After enabling/disabling the button, on the product page, you can show/hide the product bought together when added to cart.
+
+**Set frequently bought together for specific products**
+On each product, you can set frequently bought together for specific product by edit product detail .
 
 ## Support
 This repository is not suitable for support. Please don't use our issue tracker for support requests, but for core WooCommerce issues only. Support can take place through the appropriate channels:
