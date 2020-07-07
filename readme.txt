@@ -8,14 +8,16 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**GG Bought Together** is a powerful & easy to create frequently bought product on a single product page.
-This Frequently Bought Together for WooCommerce plays an important role in your WooCommerce shop to boost sales and increase profits from cross-selling marketing strategy drastically.
-When using WooCommerce Bought together, your shop can suggest related products automatic for assistant to additional purpose & usage.
-It's a smart way to introduce products to better customers' experience in your shop.
+GG Bought Together is a powerful & easy to create frequently bought product on a single product page.
 
 == Description ==
 
 [Plugin Document](https://wpdocs.gitbook.io/gg-bought-together-for-woocommerce/) | [Free Support](https://themelexus.ticksy.com/)  | [More Plugin](https://gutengeek.com/gutenberg-plugins/)
+
+**GG Bought Together** is a powerful & easy to create frequently bought product on a single product page.
+This Frequently Bought Together for WooCommerce plays an important role in your WooCommerce shop to boost sales and increase profits from cross-selling marketing strategy drastically.
+When using WooCommerce Bought together, your shop can suggest related products automatic for assistant to additional purpose & usage.
+It's a smart way to introduce products to better customers' experience in your shop.
 
 ## Powerful features of GG Frequently Bought Together for WooComerce:
 * Advanced search with SKU, title, phrase or sentence
