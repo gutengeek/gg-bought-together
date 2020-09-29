@@ -43,6 +43,24 @@ class Product extends Controller {
 			case 'after_meta':
 				add_action( 'woocommerce_single_product_summary', [ $this, 'add_to_cart_form' ], 41 );
 				break;
+			case 'before_tabs':
+				add_action( 'woocommerce_after_single_product_summary', [ $this, 'add_to_cart_form' ], 9 );
+				break;
+			case 'after_tabs':
+				add_action( 'woocommerce_after_single_product_summary', [ $this, 'add_to_cart_form' ], 11 );
+				break;
+			case 'before_upsell':
+				add_action( 'woocommerce_after_single_product_summary', [ $this, 'add_to_cart_form' ], 14 );
+				break;
+			case 'after_upsell':
+				add_action( 'woocommerce_after_single_product_summary', [ $this, 'add_to_cart_form' ], 16 );
+				break;
+			case 'before_related':
+				add_action( 'woocommerce_after_single_product_summary', [ $this, 'add_to_cart_form' ], 19 );
+				break;
+			case 'after_related':
+				add_action( 'woocommerce_after_single_product_summary', [ $this, 'add_to_cart_form' ], 21 );
+				break;
 		}
 	}
 
