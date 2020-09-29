@@ -50,7 +50,7 @@ class View {
 	 */
 	public static function locate_template( $template_name, $template_path = '', $default_path = '' ) {
 		if ( ! $template_path ) {
-			$template_path = 'templates/';
+			$template_path = 'gg-bought-together/';
 		}
 
 		if ( ! $default_path ) {
